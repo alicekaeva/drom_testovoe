@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="3" total="6" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-11-04T21:29:56 VLAT" name="Command line suite" finished-at="2022-11-04T21:30:19 VLAT" duration-ms="23941">
+    <groups>
+    </groups>
+    <test started-at="2022-11-04T21:29:56 VLAT" name="Command line test" finished-at="2022-11-04T21:30:19 VLAT" duration-ms="23941">
+      <class name="tests.addtofav.AddToFavouriteTest">
+        <test-method signature="checkAddingСarToFavourite()[pri:0, instance:tests.addtofav.AddToFavouriteTest@681adc8f]" started-at="2022-11-04T21:30:13 VLAT" name="checkAddingСarToFavourite" finished-at="2022-11-04T21:30:19 VLAT" duration-ms="6193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAddingСarToFavourite -->
+      </class> <!-- tests.addtofav.AddToFavouriteTest -->
+      <class name="tests.checkfilteredcars.CheckFilteredTest">
+        <test-method signature="checkCars()[pri:0, instance:tests.checkfilteredcars.CheckFilteredTest@5bca7664]" started-at="2022-11-04T21:30:00 VLAT" name="checkCars" finished-at="2022-11-04T21:30:13 VLAT" duration-ms="13666" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkCars -->
+      </class> <!-- tests.checkfilteredcars.CheckFilteredTest -->
+      <class name="tests.printdata.PrintDataTest">
+        <test-method signature="printDropdownContent()[pri:0, instance:tests.printdata.PrintDataTest@2b214b94]" started-at="2022-11-04T21:29:56 VLAT" name="printDropdownContent" finished-at="2022-11-04T21:30:00 VLAT" duration-ms="4065" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- printDropdownContent -->
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.printdata.PrintDataTest@2b214b94]" started-at="2022-11-04T21:30:20 VLAT" name="close" finished-at="2022-11-04T21:30:20 VLAT" duration-ms="116" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.printdata.PrintDataTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>

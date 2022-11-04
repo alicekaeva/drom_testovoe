@@ -1,0 +1,4 @@
+tests/checkfilteredcars/CheckFilteredTest.class
+tests/addtofav/AddToFavouriteTest.class
+tests/printdata/PrintDataTest.class
+tests/base/BaseTest.class
