@@ -18,12 +18,11 @@ public class LoginPage extends BasePage {
     private final By PASSWORD_INPUT = By.id("password");
     private final By ENTER_BUTTON = By.id("signbutton");
 
-    public LoginPage doAuth() {
+    public void doAuth() {
         WebElement login = driver.findElement(LOGIN_INPUT);
         login.sendKeys(LOGIN);
         WebElement password = driver.findElement(PASSWORD_INPUT);
         password.sendKeys(PASSWORD);
         driver.findElement(ENTER_BUTTON).click();
-        return this;
     }
 }

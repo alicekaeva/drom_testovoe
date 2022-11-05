@@ -22,25 +22,22 @@ public class MainPage extends BasePage {
     private final By SECOND_PAGE = By.xpath("//a[@class=\"css-1jjais5 ena3a8q0\" and contains(text(), \"2\")]");
     private final By SELECT = By.xpath("(//div[@class=\"css-1lw8b0j e26h77w0\"]/select)[1]");
 
-    public MainPage addFavourite() {
+    public void addFavourite() {
         driver.findElement(FAVOURITE_BUTTON).click();
         driver.findElement(FAVOURITE_NOTIFICATION);
-        return this;
     }
 
-    public MainPage checkCrossedText() {
+    public void checkCrossedText() {
         List<WebElement> elements = driver.findElements(CROSSED_TEXT);
         Assert.assertEquals(elements.size(), 0, "contains crossed text");
-        return this;
     }
 
-    public MainPage checkMileage() {
+    public void checkMileage() {
         List<WebElement> elements = driver.findElements(MILEAGE);
         Assert.assertEquals(elements.size(), 20, "no mileage");
-        return this;
     }
 
-    public MainPage checkYear() {
+    public void checkYear() {
         List<WebElement> elements = driver.findElements(YEAR);
         String buffer;
         int year;
@@ -50,7 +47,6 @@ public class MainPage extends BasePage {
             year = Integer.parseInt(words[1]);
             Assert.assertTrue(year >= 2007, "year less than 2007");
         }
-        return this;
     }
 
     public MainPage goToSecondPage() {
@@ -58,7 +54,7 @@ public class MainPage extends BasePage {
         return this;
     }
 
-    public MainPage gatherBrands(){
+    public void gatherBrands(){
         WebElement element = driver.findElement(SELECT);
         List<WebElement> elements = element.findElements(By.cssSelector("*"));
         HashMap<String, Integer> brands = new HashMap<>();
@@ -95,6 +91,5 @@ public class MainPage extends BasePage {
             System.out.println("| "+ namesArray[i] + " | "
                     + sortedMap.get(namesArray[i]) + " |");
         }
-        return this;
     }
 }
