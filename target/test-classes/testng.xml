@@ -3,17 +3,9 @@
 <suite name="All Test Suite">
     <test verbose="2" name="/Users/alicekaeva/Desktop/code/drom/testovoe1">
         <classes>
-            <class name="tests.checkfilteredcars.CheckFilteredTest"></class>
-        </classes>
-    </test>
-    <test verbose="2" name="/Users/alicekaeva/Desktop/code/drom/testovoe1">
-        <classes>
-            <class name="tests.addtofav.AddToFavouriteTest"></class>
-        </classes>
-    </test>
-    <test verbose="2" name="/Users/alicekaeva/Desktop/code/drom/testovoe1">
-        <classes>
-            <class name="tests.printdata.PrintDataTest"></class>
+            <class name="tests.CheckFilteredTest"></class>
+            <class name="tests.AddToFavouriteTest"></class>
+            <class name="tests.PrintDataTest"></class>
         </classes>
     </test>
 </suite>

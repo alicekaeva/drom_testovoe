@@ -1,53 +1,59 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="4" passed="3" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-05T12:32:22 VLAT" name="Command line suite" finished-at="2022-11-05T12:33:01 VLAT" duration-ms="38476">
+  <suite started-at="2022-11-05T12:47:02 VLAT" name="Command line suite" finished-at="2022-11-05T12:47:40 VLAT" duration-ms="38383">
     <groups>
     </groups>
-    <test started-at="2022-11-05T12:32:22 VLAT" name="Command line test" finished-at="2022-11-05T12:33:01 VLAT" duration-ms="38476">
+    <test started-at="2022-11-05T12:47:02 VLAT" name="Command line test" finished-at="2022-11-05T12:47:40 VLAT" duration-ms="38383">
       <class name="tests.addtofav.AddToFavouriteTest">
-        <test-method is-config="true" signature="driver()[pri:0, instance:tests.addtofav.AddToFavouriteTest@9255c05]" started-at="2022-11-05T12:32:49 VLAT" name="driver" finished-at="2022-11-05T12:32:50 VLAT" duration-ms="890" status="PASS">
+        <test-method is-config="true" signature="driver()[pri:0, instance:tests.addtofav.AddToFavouriteTest@641147d0]" started-at="2022-11-05T12:47:27 VLAT" name="driver" finished-at="2022-11-05T12:47:28 VLAT" duration-ms="933" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driver -->
-        <test-method signature="checkAddingСarToFavourite()[pri:0, instance:tests.addtofav.AddToFavouriteTest@9255c05]" started-at="2022-11-05T12:32:50 VLAT" name="checkAddingСarToFavourite" finished-at="2022-11-05T12:33:01 VLAT" duration-ms="10532" status="PASS">
+        <test-method signature="checkAddingСarToFavourite()[pri:0, instance:tests.addtofav.AddToFavouriteTest@641147d0]" started-at="2022-11-05T12:47:28 VLAT" name="checkAddingСarToFavourite" finished-at="2022-11-05T12:47:40 VLAT" duration-ms="11915" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkAddingСarToFavourite -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tests.addtofav.AddToFavouriteTest@9255c05]" started-at="2022-11-05T12:33:01 VLAT" name="close" finished-at="2022-11-05T12:33:01 VLAT" duration-ms="110" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.addtofav.AddToFavouriteTest@641147d0]" started-at="2022-11-05T12:47:40 VLAT" name="close" finished-at="2022-11-05T12:47:40 VLAT" duration-ms="125" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- tests.addtofav.AddToFavouriteTest -->
       <class name="tests.checkfilteredcars.CheckFilteredTest">
-        <test-method is-config="true" signature="driver()[pri:0, instance:tests.checkfilteredcars.CheckFilteredTest@64d7f7e0]" started-at="2022-11-05T12:32:32 VLAT" name="driver" finished-at="2022-11-05T12:32:33 VLAT" duration-ms="1133" status="PASS">
+        <test-method is-config="true" signature="driver()[pri:0, instance:tests.checkfilteredcars.CheckFilteredTest@3d3fcdb0]" started-at="2022-11-05T12:47:09 VLAT" name="driver" finished-at="2022-11-05T12:47:10 VLAT" duration-ms="935" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driver -->
-        <test-method signature="checkCars()[pri:0, instance:tests.checkfilteredcars.CheckFilteredTest@64d7f7e0]" started-at="2022-11-05T12:32:33 VLAT" name="checkCars" finished-at="2022-11-05T12:32:49 VLAT" duration-ms="16601" status="PASS">
+        <test-method signature="checkCars()[pri:0, instance:tests.checkfilteredcars.CheckFilteredTest@3d3fcdb0]" started-at="2022-11-05T12:47:10 VLAT" name="checkCars" finished-at="2022-11-05T12:47:27 VLAT" duration-ms="17256" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkCars -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tests.checkfilteredcars.CheckFilteredTest@64d7f7e0]" started-at="2022-11-05T12:33:01 VLAT" name="close" finished-at="2022-11-05T12:33:01 VLAT" duration-ms="107" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.checkfilteredcars.CheckFilteredTest@3d3fcdb0]" started-at="2022-11-05T12:47:27 VLAT" name="close" finished-at="2022-11-05T12:47:27 VLAT" duration-ms="121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- tests.checkfilteredcars.CheckFilteredTest -->
       <class name="tests.printdata.PrintDataTest">
-        <test-method is-config="true" signature="driver()[pri:0, instance:tests.printdata.PrintDataTest@23bb8443]" started-at="2022-11-05T12:32:22 VLAT" name="driver" finished-at="2022-11-05T12:32:23 VLAT" duration-ms="810" status="PASS">
+        <test-method is-config="true" signature="driver()[pri:0, instance:tests.printdata.PrintDataTest@6cc7b4de]" started-at="2022-11-05T12:47:02 VLAT" name="driver" finished-at="2022-11-05T12:47:03 VLAT" duration-ms="921" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- driver -->
-        <test-method signature="printDropdownContent()[pri:0, instance:tests.printdata.PrintDataTest@23bb8443]" started-at="2022-11-05T12:32:23 VLAT" name="printDropdownContent" finished-at="2022-11-05T12:32:32 VLAT" duration-ms="8494" status="PASS">
+        <test-method signature="printDropdownContent()[pri:0, instance:tests.printdata.PrintDataTest@6cc7b4de]" started-at="2022-11-05T12:47:03 VLAT" name="printDropdownContent" finished-at="2022-11-05T12:47:09 VLAT" duration-ms="6051" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- printDropdownContent -->
-        <test-method is-config="true" signature="close()[pri:0, instance:tests.printdata.PrintDataTest@23bb8443]" started-at="2022-11-05T12:33:01 VLAT" name="close" finished-at="2022-11-05T12:33:01 VLAT" duration-ms="108" status="PASS">
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.printdata.PrintDataTest@6cc7b4de]" started-at="2022-11-05T12:47:09 VLAT" name="close" finished-at="2022-11-05T12:47:09 VLAT" duration-ms="109" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- close -->
       </class> <!-- tests.printdata.PrintDataTest -->
+      <class name="tests.base.BaseTest">
+        <test-method is-config="true" signature="close()[pri:0, instance:tests.base.BaseTest@5ce4369b]" started-at="2022-11-05T12:47:40 VLAT" name="close" finished-at="2022-11-05T12:47:40 VLAT" duration-ms="107" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- tests.base.BaseTest -->
     </test> <!-- Command line test -->
   </suite> <!-- Command line suite -->
 </testng-results>
